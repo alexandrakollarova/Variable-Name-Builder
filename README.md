@@ -1,7 +1,7 @@
-# Variable $ Funtion Name BUILDER
+# Variable & Funtion Name BUILDER
 
 ## Link: 
-[Variable $ Funtion Name BUILDER](https://alexandrakollarova.github.io/Variable-Name-Builder/)
+[Variable & Funtion Name BUILDER](https://alexandrakollarova.github.io/Variable-Name-Builder/)
 
 ## Description:
 This app allows you to generate descriptive variable and function names for your project.
