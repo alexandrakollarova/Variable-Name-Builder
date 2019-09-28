@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Mono', monospace;
+    text-align: center
+}
+
+header {
+    padding: 30px
+}
+
+main {
+    margin: 15px
+}
+
+#form-select {
+    padding-bottom: 50px
+}
+
+select, option, input, button {
+    cursor: pointer;
+}
+
+#search-input, #btn-go-get-them {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#search-input {
+    width: 290px
+}
+
+#search-input::placeholder {
+    font-size: 14px;
+    opacity: 0.5;
+}
+
+#btn-go-get-them {
+    margin-top: 15px;
+    background-color: transparent;
+    font-family: 'Space Mono', monospace;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.nice-select {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.funnels {
+    margin-top: 30px
+}
+
+.funnels p {
+    font-size: 12px;
+    padding-bottom: 20px
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+footer p {
+    margin-bottom: 3px
+}
+
+
+@media screen and (min-width: 375px) {
+
+    .nice-select {
+        height: 50px;
+        line-height: 50px;
+        font-size: 16px;
+        width: 320px
+    }
+
+    .funnels p {
+        font-size: 15px;
+        padding-bottom: 30px
+    }
+}
+
+@media screen and (min-width: 650px) {
+
+    header {
+        padding: 60px
+    }
+
+    h1 {
+        font-size: 40px
+    }
+
+    .nice-select {
+        height: 70px;
+        line-height: 70px;
+        font-size: 20px;
+        width: 400px
+    }
+
+    .funnels p {
+        font-size: 20px;
+        padding-bottom: 40px
+    }
+}
+
+@media screen and (min-width: 800px) {
+
+    #form-select {
+        padding-top: 40px
+    }
+
+    .funnels {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 100px
+    }
+
+}
+

@@ -7,10 +7,61 @@
     <title>Some App</title>
     <!-- ICONS -->
     <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono&display=swap" rel="stylesheet">
     <!-- STYLE -->
-    <link rel="stylesheet" href="style/homepage.css" type="text/css"> 
+    <link rel="stylesheet" href="nice-select.css">
+    <link rel="stylesheet" href="main.css" type="text/css"> 
+    <!-- JQUERY FOR DROP-DOWN STYLE -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"></script>
 </head>
 <body>
+
+    <header>
+        <h1>VARIABLE NAME BUILDER</h1>
+    </header>
+
+    <main>
+        <section id='screen-for-select-language'>
+            <form id='form-select'>
+                <select>
+                    <option>Select programming language</option>
+                    <option>JavaScript</option>
+                    <option>PHP</option>
+                </select>
+            </form>
+        </section>
+
+        <section id='screen-for-search-term' hidden>
+            <form id='form-input'>
+                <label for='search-input'>
+                    <input type='text' placeholder='list of my favorite books' name='search-input' id='search-input'/>
+                </label>
+
+                <button type='submit' id='btn-go-get-them'>GO GET THEM!</button>
+            </form>
+        </section>
+
+        <section class='funnels'>
+            <div>
+                <p>Get a meaningful variable 
+                    <br> name for your project 
+                    <br>in just 2 click</p>
+            </div>
+
+            <div>
+                <p>Our app generates concise, 
+                    <br>descriptive and efficient 
+                    <br>variable name</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>2019 Copyright</p>
+    </footer>
+    
+    <script src="index.js"></script>
 
 </body>
 </html>
